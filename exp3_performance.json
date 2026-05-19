@@ -1,0 +1,43 @@
+{
+  "prng": {
+    "method": "Python random.random() (Mersenne Twister)",
+    "per_token_latency_ms": {
+      "mean": 12.808818957499923,
+      "p50": 12.576699999954144,
+      "p95": 13.335579999693435,
+      "p99": 21.488703999930273
+    },
+    "total_time_per_gen_s": {
+      "mean": 2.4990070216000033,
+      "p50": 2.535092600000098
+    },
+    "memory_mb": 1306.0546875,
+    "total_tokens_sampled": 193765
+  },
+  "qrng": {
+    "method": "QRNG600 PCIe pre-buffered pool",
+    "per_token_latency_ms": {
+      "mean": 13.207170543475991,
+      "p50": 12.653000000682368,
+      "p95": 21.297300000514944,
+      "p99": 22.012875999971584
+    },
+    "total_time_per_gen_s": {
+      "mean": 2.565473634300016,
+      "p50": 2.5628563999998732
+    },
+    "memory_mb": 1313.71875,
+    "total_tokens_sampled": 192925
+  },
+  "comparison": {
+    "latency_overhead_pct": 3.1099790487929533,
+    "total_time_overhead_pct": 2.659720926172389
+  },
+  "metadata": {
+    "total_time_seconds": 5199.05473279953,
+    "device": "cuda:0",
+    "n_iterations": 1000,
+    "warmup": 50,
+    "complete": true
+  }
+}

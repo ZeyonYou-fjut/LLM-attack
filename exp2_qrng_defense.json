@@ -1,0 +1,59 @@
+{
+  "payload_ids": [
+    31141,
+    2638,
+    1378,
+    7617,
+    6243,
+    13,
+    20688,
+    13,
+    785,
+    329
+  ],
+  "qrng_source": "QRNG600 PCIe hardware quantum random pool",
+  "attack_b_defense": {
+    "prng_exact_match_rate": 1.0,
+    "qrng_exact_match_rate": 0.0,
+    "prng_matches": 100,
+    "qrng_matches": 0,
+    "total_runs": 100,
+    "defense_effective": true
+  },
+  "audit_chain": {
+    "chain_length": 50,
+    "integrity_valid": true,
+    "sample_entries": [
+      {
+        "step": 1,
+        "entropy_hash": "76f35863886fe21b",
+        "token_id": 13
+      },
+      {
+        "step": 2,
+        "entropy_hash": "8c9848a0fd006888",
+        "token_id": 1002
+      },
+      {
+        "step": 3,
+        "entropy_hash": "467f7fc97edbb167",
+        "token_id": 257
+      },
+      {
+        "step": 4,
+        "entropy_hash": "19a716a608a92d0f",
+        "token_id": 2581
+      },
+      {
+        "step": 5,
+        "entropy_hash": "74b145b155308e61",
+        "token_id": 318
+      }
+    ]
+  },
+  "metadata": {
+    "total_time_seconds": 496.8908269405365,
+    "device": "cuda:0",
+    "qrng_pool_size": 50000000
+  }
+}
